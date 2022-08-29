@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    margin-top: 45px;
+    background-color:white;
+    padding: 10px;
+}
+header > nav p{
+    font-family:'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 20%;
+}
+body{
+    background: black url(background/space-background002.jpg);
+}
+main > section > article{
+    padding-top: 50px;
+    text-align: center;
+    font-family:'League Spartan', sans-serif;
+    color: white;
+}
+article > h1{
+    font-weight: 400;
+    font-size: 59px;
+}
+article > p{
+    padding-top: 20px;
+    font-weight: 300;
+    display: block;
+    max-width:850px;
+    margin: auto;
+    line-height: 1.6em;
+    font-size: 20px;
+    text-align: left;
+}
+p.assinatura{
+    text-align: right;
+}
+section > aside > img.portrait{
+    display: block;
+    width:70%;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+section > aside > img.long{
+    display: block;
+    width: 95%;
+    max-width: 800px;
+    max-height: 600px;
+    margin: auto;
+    padding-bottom: 40px;
+}
