@@ -69,10 +69,24 @@ section > aside > img.long{
     padding-left: 80px;
 }
 .mulher-direita{
-    float: left;
+    float: right;
     width:70%;
     max-width: 320px;
     padding-left: 60px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.land-esquerda{
+    float: left;
+    width:70%;
+    margin: auto;
+    padding-bottom: 40px;
+    
+}
+.land-direita{
+    float: right;
+    width:70%;
+    padding-left: 30px;
     margin: auto;
     padding-bottom: 40px;
 }
