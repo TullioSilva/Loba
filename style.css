@@ -24,6 +24,10 @@ main > section > article{
     font-family:'League Spartan', sans-serif;
     color: white;
 }
+section{
+    max-width:850px;
+    margin: auto;
+}
 article > h1{
     font-weight: 400;
     font-size: 59px;
@@ -53,6 +57,22 @@ section > aside > img.long{
     width: 95%;
     max-width: 800px;
     max-height: 600px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.mulher-esquerda{
+    float: left;
+    width:70%;
+    max-width: 320px;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-left: 80px;
+}
+.mulher-direita{
+    float: left;
+    width:70%;
+    max-width: 320px;
+    padding-left: 60px;
     margin: auto;
     padding-bottom: 40px;
 }
