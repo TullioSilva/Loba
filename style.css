@@ -45,48 +45,25 @@ article > p{
 p.assinatura{
     text-align: right;
 }
-section > aside > img.portrait{
-    display: block;
-    width:70%;
-    max-width: 500px;
+/* A partir daqui entram as configurações das imagens */
+
+div.fotos{
+    position: relative;
     margin: auto;
-    padding-bottom: 40px;
+    max-width: 850px;
 }
-section > aside > img.long{
-    display: block;
-    width: 95%;
+img.portrait{
+    position: absolute;
+    width: 60%;
+    max-width: 500px;
+    left: 20%;
+    padding-bottom: 20px;
+}
+img.long{
+    
+    width: 90%;
     max-width: 800px;
     max-height: 600px;
-    margin: auto;
-    padding-bottom: 40px;
-}
-.mulher-esquerda{
-    float: left;
-    width:70%;
-    max-width: 320px;
-    margin: auto;
-    padding-bottom: 40px;
-    padding-left: 80px;
-}
-.mulher-direita{
-    float: right;
-    width:70%;
-    max-width: 320px;
-    padding-left: 60px;
-    margin: auto;
-    padding-bottom: 40px;
-}
-.land-esquerda{
-    float: left;
-    width:70%;
-    margin: auto;
-    padding-bottom: 40px;
-    
-}
-.land-direita{
-    float: right;
-    width:70%;
-    padding-left: 30px;
     margin: auto;
     padding-bottom: 40px;
 }
